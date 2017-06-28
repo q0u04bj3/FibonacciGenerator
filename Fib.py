@@ -6,9 +6,9 @@ def fib():
         a, b = b, a + b
         yield b
 
-sys.argv[1] = fib()
-print sys.argv[1].next()
-print sys.argv[1].next()
-print sys.argv[1].next()
-print sys.argv[1].next()
-print sys.argv[1].next()
+c = fib()
+print c.next()
+print c.next()
+print c.next()
+print c.next()
+print c.next()
